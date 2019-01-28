@@ -1,0 +1,61 @@
+button {
+  height: 100px;
+  width: 100px;
+  background-color: #00ff00;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  text-align: center;
+  margin: auto;
+}
+
+.choices {
+  display: block;
+}
+
+.wrapper {
+  display: block; 
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+.picks {
+  display: inline-block;
+}
+
+h2, h3 {
+  text-align: center;
+  display: block;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid lime;
+}
+
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+.gameImage {
+  opacity: 0.5;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.picksButton {
+  margin-left: 30px;
+}
